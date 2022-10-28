@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* 
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/* article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}  */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-login {
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+  max-width: 400px;
+}
+#icon1 {
+  margin: 16px 0 22px;
+}
+.header {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  padding: 10px 10px;
+  font-weight: 500;
+  margin-bottom: 4px 0;
+}
+.forms {
+  border: 1px solid #e1f1ff;
+  margin: 10px 0 20px;
+  padding: 20px 10px 10px;
+  border-radius: 10px;
+  background-color: #f9fbfc;
+  width: 100%;
+  max-width: 320px;
+}
+.form-input {
+  margin: 10px 10px;
+  width: 22em;
+  border-radius: 5px;
+  line-height: 1.9em;
+  border: 1px solid #d5e0eb;
+}
+.form-label {
+  margin: 10px 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+.form-link {
+  padding-left: 80px;
+  text-decoration: none;
+}
+.form-button {
+  margin-left: 35%;
+  padding: 10px 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: green;
+  color: white;
+  border: 1px solid #d5e0eb;
+  border-radius: 10px;
+}
+.form-para {
+  padding-left: 40px;
+  padding-bottom: 10px;
+}
+.form-footer {
+  margin-top: 1cm;
+}
+.form-anchor {
+  padding-left: 7px;
+  text-decoration: none;
+}
+#foot {
+  padding-left: 7px;
+}
+#form-acc {
+  text-decoration: none;
+}
